@@ -10,28 +10,37 @@
 #   SpigotMC Link: https://www.spigotmc.org/resources/37177/
 #   MC-Market Link: https://builtbybit.com/resources/22313/
 #   GitHub Link: https://github.com/MrUniverse44/LegacyPixelMOTD/
+# ---
+# 使用バージョン: 9.5-SNAPSHOT (PixelMOTD 10 用に作成する予定だったシステムは、レガシー版ヘ移行されました)
+#
+#   作者: JustJustin (MrUniverse44)
+#   SpigotMC リンク: https://www.spigotmc.org/resources/37177/
+#   MC-Market リンク: https://builtbybit.com/resources/22313/
+#   GitHub リンク: https://github.com/MrUniverse44/LegacyPixelMOTD/
+# ---
+#   Translator: wolf0023
 #
 messages:
   reload: '&aプラグインが<ms>ミリ秒で再読み込みされました。'
 
   error:
-    permission: '&cそのコマンドを使うには権限（<permission>）が必要です。'
+    permission: '&cそのコマンドを使うには、権限（<permission>）が必要です。'
     already-whitelisted: '&a<type> &e<player> &aはすでにホワイトリストに追加されています！'
     already-blacklisted: '&a<type> &e<player> &aはすでにブラックリストに追加されています！'
     not-whitelisted: '&a<type> &e<player> &aはホワイトリストに追加されていません！'
-    not-blacklisted: '&a<type> &e<player> &aはブラックリストにつかされていません！'
-    invalid-arguments: '&aThis command needs more arguments.'
+    not-blacklisted: '&a<type> &e<player> &aはブラックリストに追加されていません！'
+    invalid-arguments: '&aコマンドに必要な引数が不足しています。'
 
   whitelist:
-    enabled: '&aホワイトリストが&b&l有効&aです。'
-    disabled: '&aホワイトリストが&c&l無効&aです。'
+    enabled: '&aホワイトリストが&b&l有効&aになりました。'
+    disabled: '&aホワイトリストが&c&l無効&aになりました。'
     player:
       add: '&a<type> &e<player> &aをホワイトリストに&b追加&aしました。'
       remove: '&a<type> &e<player> &aをホワイトリストから&b削除&aしました。'
 
   blacklist:
-    enabled: '&aブラックリストが&b&l有効&aです。'
-    disabled: '&aブラックリストが&c&l無効&aです。'
+    enabled: '&aブラックリストが&b&l有効&aになりました。'
+    disabled: '&aブラックリストが&c&l無効&aになりました。'
     player:
       add: '&a<type> &e<player> &aをブラックリストに&b追加&aしました。'
       remove: '&a<type> &e<player> &aをブラックリストから&b削除&aしました。'
